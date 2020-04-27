@@ -1,0 +1,299 @@
+.de_container{
+	margin-top: 20px;
+}
+.crumb_wrap{
+	height: 25px;
+}
+.crumb_wrap a{
+	margin-right: 10px;
+}
+.preview_wrap{
+	width: 400px;
+	height: 590px;
+}
+.itemInfo_wrap{
+	width: 718px;
+}
+.preview_img{
+	width: 398px;
+	height: 400px;
+	border:1px solid #ccc;
+}
+.preview_img img{
+	width: 398px;
+	height: 400px;
+}
+.preview_list{
+	position: relative;
+	height: 60px;
+	margin-top: 60px;
+}
+.list_item{
+	width: 320px;
+	height: 60px;
+	margin:0 auto;
+}
+.list_item li{
+	float: left;
+	width: 56px;
+	height: 56px;
+	border:2px solid transparent;
+	margin:0 2px;
+}
+.list_item li img{
+	width: 56px;
+	height: 56px;
+}
+.list_item li.current{
+	border-color: #c81623;
+}
+.arrow_prev, .arrow_next{
+	position: absolute;
+	top: 15px;
+	width: 22px;
+	height: 32px;
+}
+.arrow_prev{
+	left: 0;
+	background: url(../img/prev.png) no-repeat center center;
+}
+.arrow_next{
+	right: 0;
+	background: url(../img/next.png) no-repeat center center;
+}
+/*产品详细信息*/
+.sku_name{
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.news{
+	height: 32px;
+	color: #e12228;
+}
+.summary dl{
+	overflow: hidden;/*清除浮动*/
+}
+.sum_price, .sum_promotion{
+	position: relative;
+	padding:10px 0;
+	background: #fee9eb;
+}
+.summary dd,.summary dt{
+	float: left;
+}
+.summary dt{
+	width: 60px;
+	padding-left: 10px;line-height: 36px;
+}
+.price{
+	font-size: 24px;
+	color: #e12228;
+}
+.sum_price a{
+	color: #c81623;
+}
+.remark{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.sum_promotion{
+	padding-top: 0;
+}
+.sum_promotion dd{
+	width: 450px;
+	line-height: 36px;
+}
+.sum_promotion em{
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background: #c81623;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+.sum_support dd, .sum_transport dd{
+	line-height: 36px;
+}
+.choose_color a{
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	background: #f7f7f7;
+	border: 1px solid #ededed;
+	line-height: 41px;
+	text-align: center;
+}
+.summary a.current{
+	border-color: #e12228;
+}
+.choose_version,.choose_memory,.choose_type{
+	margin: 10px 0;
+}
+.choose_version a, .choose_memory a, .choose_type a {
+	display: inline-block;
+	height: 32px;
+	padding: 0 12px;
+	background: #f7f7f7;
+	border: 1px solid #ededed;
+	line-height: 32px;
+	text-align: center;
+}
+.choose_btns{
+	margin-top: 20px;
+}
+.choose_amount{
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 46px;
+	background: pink;
+}
+.choose_amount input{
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.add, .reduce{
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background: #f1f1f1;
+	text-align: center;
+	line-height: 22px;
+}
+.reduce{
+	bottom: 0;
+	cursor: not-allowed;/*禁止鼠标样式*/
+}
+.add{
+	top: 0px;
+}
+.add_car, .zhifu{
+	float: left;
+	width: 142px;
+	height: 46px;
+	background: #c81623;
+	text-align: center;
+	font-size: 18px;
+	line-height: 46px;
+	color: #fff;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.add_car:hover, .zhifu:hover{
+	color: #fff;
+}
+
+.product_detail{
+	margin-bottom: 50px;
+}
+
+.aside{
+	width:208px;
+	border: 1px solid #ccc;
+}
+.tab_list{
+	height: 34px;
+}
+.tab_list li{
+	float: left;
+	background: #f1f1f1;
+	border-bottom: 1px solid #ccc;
+	height: 33px;
+	margin-right: 0;
+	text-align: center;
+	line-height: 33px;
+}
+/*鼠标点击li变换样式 背景变白色 去掉下边框 文字变颜色*/
+.tab_list .current{
+	background: #fff;
+	border-bottom: 0;
+	color: red;
+}
+.first_tab{
+	width: 104px;
+}
+.second_tab{
+	width:103px;
+	border-left: 1px solid #ccc;
+}
+
+.tab_con{
+	display: none;
+}
+.tab_con li{
+	padding: 0 10px;
+}
+.tab_con li a{
+	float: left;
+	width: 83px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-left: 5px;
+}
+
+.tab_con_list ul li{
+	border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+	white-space: nowrap;/*强制使文字在一行显示*/
+	overflow: hidden;/*文字超出隐藏*/
+	text-overflow: ellipsis;/*超出的文字省略号显示*/
+	font-weight: normal;/*文字不加粗*/
+}
+.aside_price{
+	font-weight: bold;
+	margin: 10px 0;
+}
+.tab_con .aside_add_car{
+	display: block;
+	width: 88px;
+	height: 26px;
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+	margin:-28px 0px 0px 48px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.detail{
+	width: 978px;
+}
+.detail_tab_list{
+	height: 39px;
+	border: 1px solid #ccc;
+	background: #f1f1f1;
+}
+.detail_tab_list li{
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	padding: 0 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.detail_tab_list .current{
+	background: #c81623;
+	color: #fff;
+}
+.item{
+	display: none;
+}
+.item_info{
+	padding: 20px 0 0 20px;
+}
+.item_info li{
+	line-height: 22px;
+}
+.more{
+	float: right;
+	font-weight: bold;
+}

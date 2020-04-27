@@ -1,0 +1,126 @@
+.w{
+	width:1200px;
+	margin: auto;
+}
+.header{
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+}
+.logo{
+	padding-top: 15px;
+}
+.register_area{
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.register_area h3{
+	background: #ececec;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	padding: 0 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+.register_area h3 em{
+	float: right;
+	font-size: 14px;
+}
+.register_area a{
+	color: #c81623;
+}
+.reg_form{
+	width: 600px;
+	height: 400px;
+	margin:  40px auto;
+}
+.reg_form li{
+	margin-bottom: 15px;
+}
+.reg_form label{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.input_text{
+	width:238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+.error{
+	color: #df3033;
+	margin-left: 10px;
+}
+.error_ico{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/error.png) no-repeat center center;
+	vertical-align: middle;
+}
+.success{
+	color: #40b83f;
+	margin-left: 10px;
+}
+.success_ico{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/true.png) no-repeat center center;
+	vertical-align: middle;
+}
+.safe{
+	padding-left: 187px;
+	color: #b2b2b2;
+}
+.safe em{
+	padding:0 12px;
+	color: #fff;
+}
+.ruo{
+	background: #de1111;
+}
+.zhong{
+	background: #40b83f;
+}
+.qiang{
+	background: #f79100;
+}
+.agree{
+	padding-top:10px; 
+	padding-left: 100px;
+}
+.agree input{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.agree a{
+	color: #1ba1e6;
+}
+.over{
+	width: 200px;
+	height: 34px;
+	background: #c81623;
+	margin: 30px 0 0 130px;
+	border:0;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+.footer{
+	height: 120px;
+	text-align: center;
+}
+.links{
+	margin-top: 20px;
+	height: 30px;
+}
+.copyright{
+	line-height: 20px;
+}
