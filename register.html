@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>注册页面！</title>
-	<meta charset="utf-8">
-	<!--引入facicon.ico网页图标-->
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<!--引入css初始化的css文件-->
-	<link rel="stylesheet" type="text/css" href="css/base.css">
-	<!--引入详情页css样式-->
-	<link rel="stylesheet" type="text/css" href="css/register.css">
-</head>
-<body>
-	<div class="w">
-		<!--头部-->
-		<div class="header">
-			<div class="logo">
-				<a href="index.html"><img src="img/logo.png"></a>
-			</div>
-		</div>
-		<!--注册-->
-		<div class="register_area">
-			<h3>注册新用户<em>已有账号 去<a href="login.html">登录</a></em></h3>
-			<div class="reg_form">
-				<form>
-					<ul>
-					<li>
-						<label for="tel">手机号：</label>
-						<input type="text" class="input_text" id="tel">
-						<span class="error"><i class="error_ico"></i>手机号码格式不正确,请重新输入</span>
-					</li>
-					<li>
-						<label for="code">短信验证码：</label>
-						<input type="text" class="input_text" id="code">
-					</li>
-					<li>
-						<label for="pwd">登录密码：</label>
-						<input type="text" class="input_text" id="pwd">
-						<span class="success"><i class="success_ico"></i>恭喜您输入的格式正确</span>
-					</li>
-					<li class="safe">
-						安全程度 <em class="ruo">弱</em><em class="zhong">中</em><em class="qiang">强</em>
-					</li>
-					<li>
-						<label for="confirm_pwd">确认密码：</label>
-						<input type="text" class="input_text" id="confirm_pwd">
-						<span class="success"><i class="success_ico"></i>恭喜您输入的格式正确</span>
-					</li>
-					<li class="agree">
-						<input type="checkbox">
-						同意协议并注册 <a href="#">《知果果用户协议》</a>
-					</li>
-					<li>
-						<input type="submit" value="完成注册"  class="over">
-					</li>
-				</ul>
-				</form>
-			</div>
-		</div>
 
-		<!--footer-->
-		<div class="footer">
-			<p class="links">
-				关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
-			</p>
-			<p class="copyright">
-				地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn<br>
-				京ICP备08001421号京公网安备110108007702
-			</p>
-		</div>
-	</div>
+<head>
+    <title>注册页面！</title>
+    <meta charset="utf-8">
+    <!--引入facicon.ico网页图标-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!--引入css初始化的css文件-->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <!--引入详情页css样式-->
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script src="js/register.js"></script>
+</head>
+
+<body>
+    <div class="w">
+        <!--头部-->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png"></a>
+            </div>
+        </div>
+        <!--注册-->
+        <div class="register_area">
+            <h3>注册新用户<em>已有账号 去<a href="login.html">登录</a></em></h3>
+            <div class="reg_form">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="tel">手机号：</label>
+                            <input type="text" class="input_text" id="tel">
+                            <span class=""></span>
+                        </li>
+                        <li>
+                            <label for="QQ">QQ：</label>
+                            <input type="text" class="input_text" id="QQ">
+                            <span class=""></span>
+                        </li>
+                        <li>
+                            <label for="name">昵称：</label>
+                            <input type="text" class="input_text" id="name">
+                            <span class=""></span>
+                        </li>
+                        <li>
+                            <label for="code">短信验证码：</label>
+                            <input type="text" class="input_text" id="msg">
+                            <span class=""></span>
+                        </li>
+                        <li>
+                            <label for="pwd">登录密码：</label>
+                            <input type="text" class="input_text" id="pwd">
+                            <span class="success"></span>
+                        </li>
+                        <li class="safe">
+                            安全程度 <em class="ruo">弱</em><em class="zhong">中</em><em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="confirm_pwd">确认密码：</label>
+                            <input type="text" class="input_text" id="confirm_pwd">
+                            <span class="success"></span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox"> 同意协议并注册 <a href="#">《知果果用户协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="over">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <p class="links">
+                关于我们 | 联系我们 | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 | 品优购公益 | English Site | Contact U
+            </p>
+            <p class="copyright">
+                地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn<br> 京ICP备08001421号京公网安备110108007702
+            </p>
+        </div>
+    </div>
 
 </body>
+
 </html>
